@@ -5,3 +5,9 @@ function checkSpam(message) {
     }
     return false;
 }
+
+console.log(checkSpam("ViaGra") == true);
+console.log(checkSpam("xXx") == true);
+console.log(checkSpam("totally not viagra") == true);
+console.log(checkSpam("cops") == false);
+

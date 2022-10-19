@@ -13,7 +13,7 @@ function Fizzbuzz(n) {
     }
 }
 
-Fizzbuzz(15)
+Fizzbuzz(15);
 // Вывод:
 // 1
 // 2
